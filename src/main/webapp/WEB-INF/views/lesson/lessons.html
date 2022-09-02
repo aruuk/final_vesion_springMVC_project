@@ -14,17 +14,17 @@
 
     thead,
     tfoot {
-        background-color: #66c487;
-        color: #66c487;
+        background-color: black;
+        color: white;
     }
     </style>
     <style>
         table, th, td {
-            border: 1px solid #66c487;
+            border: 1px solid #94ee7d;
             padding: 3px;
         }
         body{
-            background-color: #66c487;
+            background-color: white;
         }
 
         .mainButton{
@@ -58,19 +58,19 @@
 
 
         <td><a th:href="@{/lessons/edit/{id}(id=${lesson.getId()})}">
-            <button style="height: 40px; width: 80px; background-color:#66c487;">Update</button>
+            <button style="height: 40px; width: 80px; background-color:white;">Update</button>
         </a>
         </td>
         <td><form th:method="DELETE" th:action="@{/lessons/{courseId}/{lessonId}/delete(courseId=${courseId},lessonId=${lesson.getId()})}">
-            <input type="submit" value="Delete" style="height: 40px; width: 80px; background-color:#66c487;"/></form></td>
+            <input type="submit" value="Delete" style="height: 40px; width: 80px; background-color:white;"/></form></td>
 
         <td><a th:href="@{/videos/videos/{id}(id=${lesson.getId()})}">
-            <button style="height: 40px; width: 90px; background-color:#66c487;">Videos</button>
+            <button style="height: 40px; width: 90px; background-color:white;">Videos</button>
         </a>
         </td>
 
         <td><a th:href="@{/tasks/tasks/{id}(id=${lesson.getId()})}">
-            <button style="height: 40px; width: 90px; background-color:#66c487;">Task </button>
+            <button style="height: 40px; width: 90px; background-color:white;">Task </button>
         </a>
         </td>
 
