@@ -9,17 +9,85 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8d2e546-c747-4751-a7b4-172ebf510c17" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/S.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/model/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/model/Course.java" afterDir="false" />
+    <list default="true" id="b8d2e546-c747-4751-a7b4-172ebf510c17" name="Changes" comment="committt">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5258b052-9628-40ec-9a14-e3a25a8cb28b.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5258b052-9628-40ec-9a14-e3a25a8cb28b/storage_v2/_src_/database/aruuke.q38DrA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5258b052-9628-40ec-9a14-e3a25a8cb28b/storage_v2/_src_/database/aruuke.q38DrA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5258b052-9628-40ec-9a14-e3a25a8cb28b/storage_v2/_src_/database/aruuke.q38DrA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5258b052-9628-40ec-9a14-e3a25a8cb28b/storage_v2/_src_/database/aruuke.q38DrA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5258b052-9628-40ec-9a14-e3a25a8cb28b/storage_v2/_src_/database/postgres.edMnLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5258b052-9628-40ec-9a14-e3a25a8cb28b/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5258b052-9628-40ec-9a14-e3a25a8cb28b/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5258b052-9628-40ec-9a14-e3a25a8cb28b/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/config/DispatcherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/config/HibernateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/controller/CompanyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/controller/InstructorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/controller/LessonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/controller/TaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/controller/VideoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/dao/CompanyDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/dao/CourseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/dao/InstructorDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/dao/LessonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/dao/StudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/dao/TaskDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/dao/VideoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/daoImpl/CompanyDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/daoImpl/CourseDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/daoImpl/InstructorDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/daoImpl/LessonDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/daoImpl/StudentDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/daoImpl/TaskDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/daoImpl/VideoDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/model/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/model/Lesson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/model/StudyFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/model/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/model/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/service/CompanyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/service/InstructorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/service/LessonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/service/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/service/VideoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/serviceImpl/CompanyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/serviceImpl/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/serviceImpl/InstructorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/serviceImpl/LessonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/serviceImpl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/serviceImpl/TaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/peaksoft/serviceImpl/VideoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/file.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/company/addCompany.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/company/companies.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/company/updateCompany.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/course/addCourse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/course/courses.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/course/updateCourse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/innerPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/instructors/addInstructor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/instructors/updateInstructor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lesson/addLesson.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lesson/lessons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lesson/updateLesson.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student/addStudent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student/students.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student/updateStudent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/task/addTask.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/task/tasks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/task/updateTask.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/video/addVideo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/video/updateVideo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/video/videos.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +134,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "editor.preferences.tabs",
     "spring.configuration.checksum": "c22e937e9a876b61332261678c1a8d84"
   },
@@ -178,8 +247,16 @@
       <option name="presentableId" value="Default" />
       <updated>1662003934355</updated>
       <workItem from="1662003936590" duration="21033000" />
-      <workItem from="1662094521605" duration="441000" />
+      <workItem from="1662094521605" duration="825000" />
     </task>
+    <task id="LOCAL-00001" summary="committt">
+      <created>1662095103058</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662095103058</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +275,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="committt" />
+    <option name="LAST_COMMIT_MESSAGE" value="committt" />
   </component>
 </project>

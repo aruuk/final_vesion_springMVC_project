@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Lessons</title>
+    <style>table,
+    td {
+        border: 1px solid #333;
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 25px;
+    }
+
+    thead,
+    tfoot {
+        background-color: #66c487;
+        color: #66c487;
+    }
+    </style>
+    <style>
+        table, th, td {
+            border: 1px solid #66c487;
+            padding: 3px;
+        }
+        body{
+            background-color: #66c487;
+        }
+
+        .mainButton{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+
+</head>
+<body>
+
+<table class="table table-bordered ">
+    <thead class="table-dark">
+    <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Lesson name</th>
+        <th scope="col">Course name</th>
+        <th scope="col">Update</th>
+        <th scope="col">Delete</th>
+        <th scope="col">Video</th>
+        <th scope="col">Task</th>
+
+    </tr>
+    </thead>
+    <tbody class="table-success">
+    <!--    //changed , foreach -->
+    <tr th:each="lesson:${lessons}">
+        <td th:text="${lesson.id}"></td>
+        <td th:text="${lesson.lessonName}"></td>
+        <td th:text="${lesson.getCourse().getCourseName()}"></td>
+
+
+        <td><a th:href="@{/lessons/edit/{id}(id=${lesson.getId()})}">
+            <button style="height: 40px; width: 80px; background-color:#66c487;">Update</button>
+        </a>
+        </td>
+        <td><form th:method="DELETE" th:action="@{/lessons/{courseId}/{lessonId}/delete(courseId=${courseId},lessonId=${lesson.getId()})}">
+            <input type="submit" value="Delete" style="height: 40px; width: 80px; background-color:#66c487;"/></form></td>
+
+        <td><a th:href="@{/videos/videos/{id}(id=${lesson.getId()})}">
+            <button style="height: 40px; width: 90px; background-color:#66c487;">Videos</button>
+        </a>
+        </td>
+
+        <td><a th:href="@{/tasks/tasks/{id}(id=${lesson.getId()})}">
+            <button style="height: 40px; width: 90px; background-color:#66c487;">Task </button>
+        </a>
+        </td>
+
+    </tr>
+    </tbody>
+</table>
+<br><br><br><br>
+
+
+
+<div style="text-align: center">
+    <a th:href="@{/lessons/{id}/addLesson(id=${courseId})}">
+        <button style="font-size: 30px;"> Add Lesson </button> </a>
+</div>
+<br>
+<a class="mainButton" th:href="@{/companies}">
+    <button type="button" class="btn btn-primary btn-sm"> Main </button>
+</a>
+
+</body>
+</html>
